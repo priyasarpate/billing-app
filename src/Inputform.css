@@ -1,25 +1,36 @@
 .container {
 position: absolute;
-background-color: lightgrey;
+background-color:white;
 width: 60%;
-border: 5px solid black;
+border-radius: 20px 20px;
 padding: 50px;
 margin: 20px;
 height: 50%;
 text-align: left;
 
 }
+
+.container:hover {
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
 .invoice {
 position: absolute;
 right: 0;
-background-color: lightgrey;
+background-color:white;
 width: 20%;
-border: 5px solid black;
+/* border: 5px solid black; */
+border-radius: 20px 20px;
 padding: 50px;
 margin: 20px;
 height: 50%;  
 text-align: left; 
 }
+
+.invoice:hover {
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
 input{
     width: 100%;
 }
