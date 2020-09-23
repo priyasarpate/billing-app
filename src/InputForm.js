@@ -6,36 +6,41 @@ class InputForm extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      item: '',
-      price: '',
-      GST: '',
-      total: ''
+      item: 'Item Name',
+      price: null,
+      GST: null,
+      total: null
     }
   }
 
 
   handleChangeItem = (event) => {
-    console.log("yes its working")
     this.setState({
       item: event.target.value
+      
     })
   }
 
   handleChangePrice = (event) => {
     this.setState({
       price: event.target.value
+    
     })
   }
 
+  
+
   handleChangeGST = (event) => {
     this.setState({
-      GST: event.target.value
+      GST: this.state.price * 12 / 100
+
     })
   }
 
   handleChangeTotal = (event) => {
+    let {price, GST} = this.state
     this.setState({
-      Total: event.target.value
+      total: parseFloat(price) + parseFloat(GST)  
     })
   }
 
@@ -60,13 +65,13 @@ class InputForm extends Component {
             <lebel className='label-3'>GST:</lebel>
             <input className='input-3'
               value=
-              {this.state.GST} onChange={this.handleChangeGST}
+              {this.state.GST} onFocus={this.handleChangeGST}
               type="text"
             /><br></br>
             <lebel className='label-4'>Total:</lebel>
             <input className='input-4'
               value=
-              {this.state.total} onChange={this.handleChangeTotal}
+              {this.state.total} onFocus={this.handleChangeTotal}
               type="text"
             /><br></br>
           </form>
