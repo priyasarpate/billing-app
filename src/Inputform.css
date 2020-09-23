@@ -1,0 +1,25 @@
+.container {
+position: absolute;
+background-color: lightgrey;
+width: 60%;
+border: 5px solid black;
+padding: 50px;
+margin: 20px;
+height: 50%;
+text-align: left;
+
+}
+.invoice {
+position: absolute;
+right: 0;
+background-color: lightgrey;
+width: 20%;
+border: 5px solid black;
+padding: 50px;
+margin: 20px;
+height: 50%;  
+text-align: left; 
+}
+input{
+    width: 100%;
+}
