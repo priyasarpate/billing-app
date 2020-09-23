@@ -9,10 +9,10 @@ class InputForm extends Component {
       item: 'Item Name',
       price: null,
       GST: null,
-      total: null
+      total: null,
     }
   }
-
+   
 
   handleChangeItem = (event) => {
     this.setState({
@@ -28,8 +28,6 @@ class InputForm extends Component {
     })
   }
 
-  
-
   handleChangeGST = (event) => {
     this.setState({
       GST: this.state.price * 12 / 100
@@ -42,6 +40,14 @@ class InputForm extends Component {
     this.setState({
       total: parseFloat(price) + parseFloat(GST)  
     })
+  }
+  Resethandler= ()=>{
+   console.log('from reset handler')
+   this.setState({
+     price: 0,
+     GST: 0,
+     total: 0
+   })
   }
 
   render() {
@@ -77,7 +83,7 @@ class InputForm extends Component {
           </form>
         </div>
         <div>
-          <Invoice data={this.state}/>
+          <Invoice Resethandler ={this.Resethandler} data={this.state}/>
         </div>
       </React.Fragment>
 

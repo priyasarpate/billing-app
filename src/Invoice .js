@@ -17,8 +17,10 @@ function Invoice(props){
               <p className="input-value-4">
            Total: 
               <span className="highlight">{props.data.total}</span></p>
-
+              <button onClick={props.Resethandler}>Reset</button>
+              <button>Print</button>
           </div>
+          
         </div>
     )
 }
