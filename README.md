@@ -1,4 +1,4 @@
-🚀 The project is live on https://priyasarpate.github.io/billing-app/
+## 🚀 The project is live on https://priyasarpate.github.io/billing-app/
 ## Available Scripts
 
 In the project directory, you can run:
