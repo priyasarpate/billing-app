@@ -6,7 +6,7 @@ class InputForm extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      item: 'Item Name',
+      item: null,
       price: null,
       GST: null,
       total: null,
@@ -44,6 +44,7 @@ class InputForm extends Component {
   Resethandler= ()=>{
    console.log('from reset handler')
    this.setState({
+     item: null,
      price: 0,
      GST: 0,
      total: 0

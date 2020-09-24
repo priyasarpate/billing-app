@@ -1,0 +1,21 @@
+.modal-header{
+justify-content: center;
+}
+.dot{
+    border-bottom: 2px dotted;
+}
+.dot1{
+    border-bottom: 2px dotted;
+
+}
+.dot2{
+    border-bottom: 2px dotted;
+  
+}
+.total{
+    justify-content: center;
+}
+.GST{
+    position: absolute;
+  
+}

@@ -2,6 +2,8 @@ import React from 'react';
 import Bill from './Bill';
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
+import './Invoice.css';
+
 
 
 function Invoice(props) {
@@ -39,18 +41,33 @@ function Invoice(props) {
                <div className="modal-dialog">
                   <div className="modal-content">
                      <div className="modal-header">
-                        <h4 className="modal-title">Printing your invoice!</h4>
+                        <h4 className="modal-title">CASH RECIEPT</h4>
                      </div>
                      <div className="modal-body" id="divToPrint">
                         {/* Style your bill here */}
                         <div className="row">
                            <div className="col">
-                            <h2> {props.data.item} </h2>
+                              <div>
+                                 <p> ITEMS:{props.data.item} </p>
+                                 <p className='dot'></p>
+                              </div>
+                              <div>
+                                 <p> PRICE:{props.data.price} </p>
+                                 <p className='dot1'></p>
+                              </div>
+                              {/* <p> GST:{props.data.item} </p> */}
+                              <div className='dot3'>
+                                 <p> GST:{props.data.GST} </p>
+                                 <h5> TOTAL:{props.data.total} </h5>
+                                 <p className='dot2'></p>
+                              </div>
+                             
+
                            </div>
                         </div>
                      </div>
                      <div className="modal-footer">
-                     <button type="button" className="btn btn-primary">Confirm Print!</button>
+                        <button type="button" onClick={printDocument} className="btn btn-primary">Confirm Print!</button>
                         <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
                      </div>
                   </div>
