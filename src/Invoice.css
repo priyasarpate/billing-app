@@ -19,3 +19,17 @@ justify-content: center;
     position: absolute;
   
 }
+.reset-button{
+    background-color:#800000;
+    color: white;
+    width: 110%;
+    border: 2px solid black;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.print-button{
+    background-color:#000080;
+    width: 100%;
+    color: white;
+    border: 2px solid black;
+}

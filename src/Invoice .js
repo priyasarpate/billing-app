@@ -34,9 +34,9 @@ function Invoice(props) {
             <p className="input-value-4">
                Total:
               <span className="highlight">{props.data.total}</span></p>
-            <button onClick={props.Resethandler} className="btn btn-danger">Reset</button>
-
-            <button className="btn btn-primary" data-toggle="modal" data-target="#myModal">Print</button>
+            <button onClick={props.Resethandler} className="reset-button">Reset</button>
+ <br />
+            <button className="print-button" data-toggle="modal" data-target="#myModal">Print</button>
             <div id="myModal" className="modal fade" role="dialog">
                <div className="modal-dialog">
                   <div className="modal-content">
@@ -48,17 +48,17 @@ function Invoice(props) {
                         <div className="row">
                            <div className="col">
                               <div>
-                                 <p> ITEMS:{props.data.item} </p>
+                                 <p> ITEMS : {props.data.item} </p>
                                  <p className='dot'></p>
                               </div>
                               <div>
-                                 <p> PRICE:{props.data.price} </p>
+                                 <p> PRICE : {props.data.price} </p>
                                  <p className='dot1'></p>
                               </div>
                               {/* <p> GST:{props.data.item} </p> */}
                               <div className='dot3'>
-                                 <p> GST:{props.data.GST} </p>
-                                 <h5> TOTAL:{props.data.total} </h5>
+                                 <p> GST : {props.data.GST} </p>
+                                 <h5> TOTAL : {props.data.total} </h5>
                                  <p className='dot2'></p>
                               </div>
                              
