@@ -3,6 +3,10 @@
 }
 body {
   background:white;
+  display: flex;
+ flex-direction: row;
+background-color: #EF87Be;
+
 }
 .App-logo {
   height: 40vmin;

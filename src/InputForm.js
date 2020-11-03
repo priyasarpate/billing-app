@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Inputform.css';
+import './App.css'
 import Invoice from './Invoice ';
 
 class InputForm extends Component {

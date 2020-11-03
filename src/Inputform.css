@@ -1,13 +1,22 @@
+body {
+    background-color: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%)
+}
+
 .container {
 position: absolute;
-background-color:white;
-width: 60%;
+background-color: #1aa4b8;
+width: 30%;
+height: 40;
 border-radius: 20px 20px;
 padding: 50px;
 margin: 20px;
-/* height: 60%; */
+/* margin-top: 10%; */
+color: black;
 height: absolute;
 text-align: left;
+justify-content: center;
+/* display: inline; */
+left: 35%;
 
 }
 
@@ -17,15 +26,16 @@ text-align: left;
 
 .invoice {
 position: absolute;
-right: 0;
+right: 60%;
+margin-top: 10%;
 background-color:white;
-width: 20%;
-/* border: 5px solid black; */
+border: 5px solid #1aa4b8;
 border-radius: 20px 20px;
 padding: 50px;
 margin: 20px;
 height: absolute;  
 text-align: left; 
+width: absolute;
 }
 
 .invoice:hover {
@@ -34,4 +44,9 @@ text-align: left;
 
 input{
     width: 100%;
+    color: black;
+    background-color: #1aa4b8;
+}
+.form{
+    justify-content: center;
 }
