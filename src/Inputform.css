@@ -46,6 +46,7 @@ input{
     width: 100%;
     color: black;
     background-color: #1aa4b8;
+    border-radius: 10px;
 }
 .form{
     justify-content: center;
