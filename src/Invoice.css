@@ -1,23 +1,16 @@
-.modal-header{
-justify-content: center;
-}
-.dot{
-    border-bottom: 2px dotted;
-}
-.dot1{
-    border-bottom: 2px dotted;
+.invoice{
+    font-family: 'Montserrat', sans-serif;
 
-}
-.dot2{
-    border-bottom: 2px dotted;
-  
-}
-.total{
-    justify-content: center;
-}
-.GST{
-    position: absolute;
-  
+    color: white;
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+    border: 15px solid bisque;
+    padding: 50px;
+    margin-top: 5%;
+    background-repeat: no-repeat;
+    background-image: url("https://image.freepik.com/free-vector/abstract-background-made-with-blue-shapes_293-1029.jpg");
 }
 .reset-button{
     background-color: none;

@@ -57,6 +57,7 @@ class InputForm extends Component {
       <React.Fragment>
         <div className='container'>
           <form className='form'>
+
             <h1>Bills form </h1>
             <lebel className='label-1'>Items:</lebel>
             <input className='input-1' value=
@@ -84,10 +85,13 @@ class InputForm extends Component {
             /><br></br>
           </form>
         </div>
-        <div>
+        <div className="">
           <Invoice Resethandler ={this.Resethandler} data={this.state}/>
         </div>
       </React.Fragment>
+
+
+
 
     )
 
