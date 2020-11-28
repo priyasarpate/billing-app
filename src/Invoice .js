@@ -21,7 +21,7 @@ function Invoice(props) {
    return (
       <div>
          <div className='invoice'>
-            <h1>InVoice</h1>
+            <h3>InVoice</h3>
             <p className="input-value-1">
                Items:
               <span className="highlight">{props.data.item}</span></p>

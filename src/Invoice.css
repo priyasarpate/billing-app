@@ -3,10 +3,10 @@
 
     color: white;
     width: auto;
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: left;
-    border: 15px solid bisque;
+    margin-left: 30%;
+    margin-right: 20%;
+  text-align: left;   
+   border: 15px solid bisque;
     padding: 50px;
     margin-top: 5%;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@
 .reset-button{
     background-color: none;
     color: #800000;
-    width: 100%;
+    width: auto;
     border: 2px solid black;
     margin-bottom: 5px;
     margin-top: 5px;
@@ -24,7 +24,7 @@
 }
 .print-button{
     background-color: none;
-    width: 100%;
+    width: auto;
     color: #000080;
     height: 40px;
     border: 2px solid black;
