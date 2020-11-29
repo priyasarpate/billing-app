@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/billing-app/static/css/main.26a8dd4c.chunk.css",
-    "main.js": "/billing-app/static/js/main.2f2a69eb.chunk.js",
-    "main.js.map": "/billing-app/static/js/main.2f2a69eb.chunk.js.map",
+    "main.css": "/billing-app/static/css/main.dc2e1f10.chunk.css",
+    "main.js": "/billing-app/static/js/main.41848fdb.chunk.js",
+    "main.js.map": "/billing-app/static/js/main.41848fdb.chunk.js.map",
     "runtime-main.js": "/billing-app/static/js/runtime-main.66aa3a9d.js",
     "runtime-main.js.map": "/billing-app/static/js/runtime-main.66aa3a9d.js.map",
     "static/js/2.9cb3efbf.chunk.js": "/billing-app/static/js/2.9cb3efbf.chunk.js",
@@ -12,16 +12,16 @@
     "static/js/4.1e9ea7cc.chunk.js": "/billing-app/static/js/4.1e9ea7cc.chunk.js",
     "static/js/4.1e9ea7cc.chunk.js.map": "/billing-app/static/js/4.1e9ea7cc.chunk.js.map",
     "index.html": "/billing-app/index.html",
-    "precache-manifest.5a138ee39ff332f9a5e8f8db8cd4300f.js": "/billing-app/precache-manifest.5a138ee39ff332f9a5e8f8db8cd4300f.js",
+    "precache-manifest.022ac0010211bdd4d015a53dcd2c7089.js": "/billing-app/precache-manifest.022ac0010211bdd4d015a53dcd2c7089.js",
     "service-worker.js": "/billing-app/service-worker.js",
-    "static/css/main.26a8dd4c.chunk.css.map": "/billing-app/static/css/main.26a8dd4c.chunk.css.map",
+    "static/css/main.dc2e1f10.chunk.css.map": "/billing-app/static/css/main.dc2e1f10.chunk.css.map",
     "static/js/3.c2d100b9.chunk.js.LICENSE.txt": "/billing-app/static/js/3.c2d100b9.chunk.js.LICENSE.txt",
     "static/js/4.1e9ea7cc.chunk.js.LICENSE.txt": "/billing-app/static/js/4.1e9ea7cc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.66aa3a9d.js",
     "static/js/3.c2d100b9.chunk.js",
-    "static/css/main.26a8dd4c.chunk.css",
-    "static/js/main.2f2a69eb.chunk.js"
+    "static/css/main.dc2e1f10.chunk.css",
+    "static/js/main.41848fdb.chunk.js"
   ]
 }
