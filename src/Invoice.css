@@ -1,21 +1,18 @@
-.invoice{
-    font-family: 'Montserrat', sans-serif;
 
-    color: white;
-    width: auto;
-    margin-left: 30%;
-    margin-right: 20%;
-  text-align: left;   
-   border: 15px solid bisque;
-    padding: 50px;
-    margin-top: 5%;
-    background-repeat: no-repeat;
-    background-image: url("https://image.freepik.com/free-vector/abstract-background-made-with-blue-shapes_293-1029.jpg");
+.invoice{
+width: 300px;
+border: 15px solid white;
+padding: 50px;
+margin: 20px;
+text-align: left;
+left: 0;
+background-color: cadetblue;
 }
+
 .reset-button{
     background-color: none;
     color: #800000;
-    width: auto;
+    width: 100%;
     border: 2px solid black;
     margin-bottom: 5px;
     margin-top: 5px;
@@ -24,7 +21,7 @@
 }
 .print-button{
     background-color: none;
-    width: auto;
+    width: 100%;
     color: #000080;
     height: 40px;
     border: 2px solid black;

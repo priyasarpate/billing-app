@@ -19,7 +19,7 @@ function Invoice(props) {
    }
 
    return (
-      <div>
+      <div className='main'>
          <div className='invoice'>
             <h3>InVoice</h3>
             <p className="input-value-1">

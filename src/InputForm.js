@@ -55,39 +55,41 @@ class InputForm extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className='container'>
-          <form className='form'>
+     <div className="col-md-4">
+    <Invoice Resethandler ={this.Resethandler} data={this.state}/>
+    </div>  
+<form>
+    <h1>Fill Form</h1>
+    <div className="form-group">
+        <label for="inputAddress">Item:</label>
+        <input type="text" className="form-control" id="inputAddress" placeholder="Item Name"
+            value={this.state.item} onChange={this.handleChangeItem} />
+    </div>
 
-            <h1>Bills form </h1>
-            <lebel className='label-1'>Items:</lebel>
-            <input className='input-1' value=
-              {this.state.item} onChange={this.handleChangeItem}
-              type="text" />
-            <br></br>
+    <div className="form-group">
+        <label for="inputAddress2">Price:</label>
+        <input type="text" className="form-control" id="inputAddress2" placeholder="Price"
+            value=
+            {this.state.price} onChange={this.handleChangePrice}
+        />
+    </div>
 
-            <lebel className='label-2'>Price:</lebel>
-            <input className='input-2'
-              value=
-              {this.state.price} onChange={this.handleChangePrice}
-              type="text"
-            /><br></br>
-            <lebel className='label-3'>GST:</lebel>
-            <input className='input-3'
-              value=
-              {this.state.GST} onFocus={this.handleChangeGST}
-              type="text"
-            /><br></br>
-            <lebel className='label-4'>Total:</lebel>
-            <input className='input-4'
-              value=
-              {this.state.total} onFocus={this.handleChangeTotal}
-              type="text"
-            /><br></br>
-          </form>
-        </div>
-        <div className="">
-          <Invoice Resethandler ={this.Resethandler} data={this.state}/>
-        </div>
+    <div className="form-group">
+        <label for="inputAddress">GST:</label>
+        <input type="text" className="form-control" id="inputAddress" placeholder="GST"
+         value={this.state.GST} onFocus={this.handleChangeGST}
+
+        />
+    </div>
+
+    <div className="form-group">
+        <label for="inputAddress2">Total:</label>
+        <input type="text" className="form-control" id="inputAddress2" placeholder="Total"
+         value=
+         {this.state.total} onFocus={this.handleChangeTotal}
+        />
+    </div>
+</form>
       </React.Fragment>
 
 

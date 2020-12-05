@@ -1,37 +1,18 @@
-.form{
-    display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 0rem 5rem;
-  transition: all 0.2s 0.7s;
-  overflow: hidden;
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-  width: 50%;
- height: auto;
-  border: 15px solid rgb(220, 220, 238);
+form{
+  width: auto;
+  border-radius: 25px;
   padding: 50px;
-  margin-left: 24%;
-margin-top: 5%;
-background: white;
-background-repeat: no-repeat;
-font-weight: bold;
-color: #000000;
+  margin: 20px;
+  background-color:  white;
+  text-align: left;
 }
-input{
-    max-width: 380px;
-    width: 200%;
-    background-color: #f0f0f0;
-    margin: 10px 0;
-    height: 40px;
-    border-radius: 55px;
-    display: grid;
-    grid-template-columns: 15% 85%;
-    padding: 0 0.4rem;
-    position: relative;
+.form-control-top{
+background: bisque;
+border-radius: 25px;
+padding: 20px;
+width: 50%;
+height: 15; 
+margin-left: 25%;
+margin-top: 5px;
+text-align: center;
 }
-
-input:focus {
-    background-color:  rgb(220, 220, 238);
-  }
