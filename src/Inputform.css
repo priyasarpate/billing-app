@@ -6,6 +6,9 @@ form{
   background-color:  white;
   text-align: left;
 }
+.form .input .form:focus label {
+  top: 0;
+}
 .form-control-top{
 background: bisque;
 border-radius: 25px;
