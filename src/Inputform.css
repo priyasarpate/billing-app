@@ -2,9 +2,19 @@ form{
   width: auto;
   border-radius: 25px;
   padding: 50px;
-  margin: 20px;
-  background-color:  white;
+  margin-top: 100px;
+  margin-left: 30%;
   text-align: left;
+  background-color: white;
+  box-shadow: 10px 10px 10px 10px grey;
+}
+.h1{
+  text-align: center;
+  margin-top: 50px;
+}
+.p{
+  text-align: center;
+  color: #000080;
 }
 .form .input .form:focus label {
   top: 0;
@@ -18,4 +28,12 @@ height: 15;
 margin-left: 25%;
 margin-top: 5px;
 text-align: center;
+}
+@media (max-width: 480px){
+  
+  form{
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+  }
 }
