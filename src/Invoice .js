@@ -20,8 +20,12 @@ function Invoice(props) {
 
    return (
       <div className='main'>
+            <h1 className="h1">Billing App</h1>
+     <h3 className="p">Helpfull For Small Business</h3>
+     <div className="before-container">
+        <h3>InVoice</h3>
+        </div>
          <div className='invoice'>
-            <h3>InVoice</h3>
             <p className="input-value-1">
                Items:
               <span className="highlight">{props.data.item}</span></p>
@@ -35,7 +39,7 @@ function Invoice(props) {
                Total:
               <span className="highlight">{props.data.total}</span></p>
             <button onClick={props.Resethandler} className="reset-button">Reset</button>
- <br />
+            <br />
             <button className="print-button" data-toggle="modal" data-target="#myModal">Print</button>
             <div id="myModal" className="modal fade" role="dialog">
                <div className="modal-dialog">
@@ -61,7 +65,7 @@ function Invoice(props) {
                                  <h5> TOTAL : {props.data.total} </h5>
                                  <p className='dot2'></p>
                               </div>
-                             
+
 
                            </div>
                         </div>

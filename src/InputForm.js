@@ -56,14 +56,13 @@ class InputForm extends Component {
     return (
 
       <>
-     <h1 className="h1">Billing App</h1>
-     <h3 className="p">Helpfull For Small Business</h3>
+      <div className="bg-container">
         <div className="row">
         
           <div className="col-md-6">
             <div className='form-container form-box'>
               <form>
-                <h1>Form</h1>
+                <h1 className="form-title">Form</h1>
 
 
 
@@ -105,7 +104,7 @@ class InputForm extends Component {
           <Invoice Resethandler={this.Resethandler} data={this.state} />
         </div>
         </div>
-       
+        </div>
       </>
 
     )

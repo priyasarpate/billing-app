@@ -1,23 +1,31 @@
-form{
-  width: auto;
+.bg-container{
+  background-color: white;
+  width: 75%;
+  border: 2px solid white;
+  /* margin-left: 150px; */
+  border-radius: 20px;
+  margin-top: 100px;
+  margin-left: 120px;
+  margin-right: 70px;
+}
+
+ form{
+  width: 100%;
   border-radius: 25px;
   padding: 50px;
-  margin-top: 100px;
-  margin-left: 30%;
+  margin-top: 50px;
+   margin-left: 10px; 
   text-align: left;
   background-color: white;
-  box-shadow: 10px 10px 10px 10px grey;
+  /* box-shadow: 10px 10px 10px 10px grey; */
 }
-.h1{
-  text-align: center;
-  margin-top: 50px;
-}
-.p{
-  text-align: center;
-  color: #000080;
-}
+
 .form .input .form:focus label {
   top: 0;
+}
+.form-title{
+  color: #191970;
+  text-shadow: 1px 1px #191970;
 }
 .form-control-top{
 background: bisque;
@@ -31,9 +39,12 @@ text-align: center;
 }
 @media (max-width: 480px){
   
-  form{
-    width: 100%;
-    margin: 0;
-    border-radius: 0;
+form{
+  display: flex;
+   flex-flow: column; 
+  order: 2;
+ width: 100%;
+ margin: 0;
+ position: relative;
   }
-}
+} 
