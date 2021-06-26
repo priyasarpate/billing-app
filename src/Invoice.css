@@ -63,7 +63,16 @@ box-shadow: 10px 10px 10px 10px grey;
 
 @media (max-width: 480px){
    .invoice{
-       order: 1;
-       width: 100%;
+    margin-left: auto;
   }
+  .h1{
+    display: none;
+  }
+  .p{
+    display: none;
+  }
+  .before-container{
+   margin-top: 20px;
+   margin-left: auto;
+    }
   }

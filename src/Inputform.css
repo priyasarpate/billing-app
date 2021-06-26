@@ -38,13 +38,14 @@ margin-top: 5px;
 text-align: center;
 }
 @media (max-width: 480px){
-  
+  .bg-container{
+    width: auto;
+    position: absolute;
+    margin: 0;
+  }
 form{
-  display: flex;
-   flex-flow: column; 
-  order: 2;
  width: 100%;
- margin: 0;
- position: relative;
+ border: 10px solid white;
+ box-shadow: 2px 2px 2px 2px gray;
   }
 } 
