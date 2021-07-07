@@ -41,7 +41,7 @@ function Invoice(props) {
             <button onClick={props.Resethandler} className="reset-button">Reset</button>
             <br />
             <button className="print-button" data-toggle="modal" data-target="#myModal">Print</button>
-            <div id="myModal" className="modal fade" role="dialog">
+            <div id="myModal" className="modal-container  modal fade" role="dialog">
                <div className="modal-dialog">
                   <div className="modal-content">
                      <div className="modal-header">

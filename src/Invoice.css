@@ -63,7 +63,10 @@ box-shadow: 10px 10px 10px 10px grey;
 
 @media (max-width: 480px){
    .invoice{
-    margin-left: auto;
+    margin-left: 0;
+    width: 100%;
+    box-shadow: none;
+
   }
   .h1{
     display: none;
@@ -72,7 +75,10 @@ box-shadow: 10px 10px 10px 10px grey;
     display: none;
   }
   .before-container{
+    width: 100%;
    margin-top: 20px;
-   margin-left: auto;
+   margin-left: 0;
+   box-shadow: none;
     }
   }
+  
