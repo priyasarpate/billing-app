@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/billing-app/static/css/main.215d0af0.chunk.css",
-    "main.js": "/billing-app/static/js/main.35aa8cf9.chunk.js",
-    "main.js.map": "/billing-app/static/js/main.35aa8cf9.chunk.js.map",
+    "main.css": "/billing-app/static/css/main.23fa4cc7.chunk.css",
+    "main.js": "/billing-app/static/js/main.843af7e3.chunk.js",
+    "main.js.map": "/billing-app/static/js/main.843af7e3.chunk.js.map",
     "runtime-main.js": "/billing-app/static/js/runtime-main.a4658b9c.js",
     "runtime-main.js.map": "/billing-app/static/js/runtime-main.a4658b9c.js.map",
     "static/js/2.ea146798.chunk.js": "/billing-app/static/js/2.ea146798.chunk.js",
@@ -12,9 +12,9 @@
     "static/js/4.06a81c6e.chunk.js": "/billing-app/static/js/4.06a81c6e.chunk.js",
     "static/js/4.06a81c6e.chunk.js.map": "/billing-app/static/js/4.06a81c6e.chunk.js.map",
     "index.html": "/billing-app/index.html",
-    "precache-manifest.33318f575bf3c6fdced6c6040f8d6e19.js": "/billing-app/precache-manifest.33318f575bf3c6fdced6c6040f8d6e19.js",
+    "precache-manifest.76a0ec9681023b84c4e47c8bee29a5f3.js": "/billing-app/precache-manifest.76a0ec9681023b84c4e47c8bee29a5f3.js",
     "service-worker.js": "/billing-app/service-worker.js",
-    "static/css/main.215d0af0.chunk.css.map": "/billing-app/static/css/main.215d0af0.chunk.css.map",
+    "static/css/main.23fa4cc7.chunk.css.map": "/billing-app/static/css/main.23fa4cc7.chunk.css.map",
     "static/js/2.ea146798.chunk.js.LICENSE.txt": "/billing-app/static/js/2.ea146798.chunk.js.LICENSE.txt",
     "static/js/3.74e9607e.chunk.js.LICENSE.txt": "/billing-app/static/js/3.74e9607e.chunk.js.LICENSE.txt",
     "static/js/4.06a81c6e.chunk.js.LICENSE.txt": "/billing-app/static/js/4.06a81c6e.chunk.js.LICENSE.txt"
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.a4658b9c.js",
     "static/js/3.74e9607e.chunk.js",
-    "static/css/main.215d0af0.chunk.css",
-    "static/js/main.35aa8cf9.chunk.js"
+    "static/css/main.23fa4cc7.chunk.css",
+    "static/js/main.843af7e3.chunk.js"
   ]
 }
